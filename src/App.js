@@ -1,9 +1,9 @@
-import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header>Levi Heintzelman Portfolio</header>
+    <div className="navbar navbar-expand-lg bg-light">
+      <header className='navbar navbar-expand-lg bg-light text-success'>Levi Heintzelman's Portfolio</header>
     </div>
   );
 }
