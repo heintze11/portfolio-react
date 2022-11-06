@@ -1,9 +1,12 @@
+import { useState } from 'react';
+import Header from "./components/Header";
 
 
-function App() {
+const App = () => {
   return (
-    <div className="navbar navbar-expand-lg bg-light">
-      <header className='navbar navbar-expand-lg bg-light text-success'>Levi Heintzelman's Portfolio</header>
+    <div className="container">
+      <Header />
+      
     </div>
   );
 }
