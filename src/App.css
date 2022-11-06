@@ -1,0 +1,10 @@
+.navbar-nav > li > a {
+    border: .12rem solid;
+    border-color: gray;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+    border: .12rem solid;
+    border-color: yellow;
+}
+
