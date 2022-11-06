@@ -5,6 +5,20 @@
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus{
     border: .12rem solid;
-    border-color: yellow;
+    border-color: #f5c71a;
 }
 
+
+.header-wrapper {
+    background: url(computer.jpg) no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+
+/* .navbar-nav > li > a:hover {
+    border: .12rem solid;
+    border-color: yellow;
+} */
