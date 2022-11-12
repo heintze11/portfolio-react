@@ -3,6 +3,7 @@
 const About = () => {
   return (
     <div className="background">
+      <div className="text">
       <h2>About Levi</h2>
       <p>
         Levi spent 12 years working as a geologist in the Oil and Gas industry. Due to recent economic and political changes he decided to pursue a career change. During 2022 he started a Coding Bootcamp which finished in December of 2022. 
@@ -11,6 +12,7 @@ const About = () => {
 
         Levi lives in Denver Colorado and is an avid outdoorsman. He enjoys mountain biking, hiking, camping, skiing, and off-roading.
       </p>
+      </div>
     </div>
   )
 }

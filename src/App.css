@@ -17,6 +17,16 @@
     height: 90vh;
 }
 
+.text {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: midnightblue;
+}
+
+p {
+    font-size: larger;
+    font-weight: 600
+}
 
 /* .navbar-nav > li > a:hover {
     border: .12rem solid;
