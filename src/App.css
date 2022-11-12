@@ -28,6 +28,12 @@ p {
     font-weight: 600
 }
 
+#message {
+    height: 10rem;
+}
+
+
+
 /* .navbar-nav > li > a:hover {
     border: .12rem solid;
     border-color: yellow;
