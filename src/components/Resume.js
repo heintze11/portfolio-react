@@ -2,7 +2,7 @@
 
 const Resume = () => {
   return (
-    <div>Resume</div>
+    <div className="background">Resume</div>
   )
 }
 

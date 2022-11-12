@@ -2,7 +2,7 @@
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <div className="background">Portfolio</div>
   )
 }
 
