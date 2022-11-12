@@ -14,6 +14,8 @@ const Contact = () => {
               type="text"
               placeholder="Name"
             />
+            <span></span>
+      
           </div>
 
           <div className="mb-3 w-50">
@@ -25,6 +27,7 @@ const Contact = () => {
               id="emailAddress"
               type="email"
               placeholder="Email Address"
+              
             />
           </div>
 
@@ -35,6 +38,7 @@ const Contact = () => {
               id="message"
               type="text"
               placeholder="Message"
+              
             ></textarea>
           </div>
 

@@ -36,20 +36,3 @@ return (
 
 
 }
-
-
-// const App = () => {
-//   return (
-//     <>
-//       <Navbar />
-//       <Header />
-//       <About />
-//       <Portfolio />
-//       <Contact />
-//       <Resume />
-//       <Footer />
-//     </>
-//   );
-// };
-
-// export default App;

@@ -32,9 +32,14 @@ p {
     height: 10rem;
 }
 
+.img {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
 
-
-/* .navbar-nav > li > a:hover {
-    border: .12rem solid;
-    border-color: yellow;
-} */
+@media (max-width: 992px) { 
+    .img {
+        height: 50vh;
+    }
+ }
