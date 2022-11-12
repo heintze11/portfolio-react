@@ -1,5 +1,8 @@
 import health from '../assets/health-tracker.jpg';
 import airQuality from '../assets/air-quality.png';
+import final from '../assets/final.jpg';
+import background from '../assets/background.jpeg';
+import task from '../assets/task.png';
 
 const Portfolio = () => {
   return (
@@ -61,18 +64,58 @@ const Portfolio = () => {
           <div className="col-lg-5 mt-5">
             <div className="card">
               <div className="card-body">
-                <h5 className="card-title">Health Tracker</h5>
+                <h5 className="card-title">Final Project</h5>
               </div>
-              <img src={health} alt="Preview of health tracker app" />
+              <img className="img" src={final} alt="Preview of health tracker app" />
               <a
-                href="https://github.com/heintze11/health-tracker"
+                href="https://github.com/AFaidley/Project-3"
                 target="_blank"
                 className="btn btn-secondary w-50"
               >
                 Github
               </a>
               <a
-                href="https://evening-reef-97935.herokuapp.com/"
+                href="https://github.com/AFaidley/Project-3"
+                target="_blank"
+                className="btn btn-primary w-50"
+              >
+                Placeholder
+              </a>
+            </div>
+          </div>
+
+          <div className="col-lg-5 mt-5">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">React Task Tracker</h5>
+              </div>
+              <img className="img" src={task} alt="Task app" />
+              <a
+                href="https://github.com/heintze11/react-task-tracker"
+                target="_blank"
+                className="btn btn-secondary w-50"
+              >
+                Github
+              </a>
+              
+            </div>
+          </div>
+
+          <div className="col-lg-5 mt-5">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title">Placeholder</h5>
+              </div>
+              <img className="img" src={background} alt="Preview of health tracker app" />
+              <a
+                href="https://github.com/heintze11/"
+                target="_blank"
+                className="btn btn-secondary w-50"
+              >
+                Github
+              </a>
+              <a
+                href="https://github.com/heintze11/"
                 target="_blank"
                 className="btn btn-primary w-50"
               >
@@ -81,67 +124,21 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="col-lg-5 mt-5">
+          <div className="col-lg-5 mt-5 mb-5">
             <div className="card">
               <div className="card-body">
-                <h5 className="card-title">Health Tracker</h5>
+                <h5 className="card-title">Placeholder</h5>
               </div>
-              <img src={health} alt="Preview of health tracker app" />
+              <img className="img" src={background} alt="Preview of health tracker app" />
               <a
-                href="https://github.com/heintze11/health-tracker"
+                href="https://github.com/heintze11/"
                 target="_blank"
                 className="btn btn-secondary w-50"
               >
                 Github
               </a>
               <a
-                href="https://evening-reef-97935.herokuapp.com/"
-                target="_blank"
-                className="btn btn-primary w-50"
-              >
-                Deployed
-              </a>
-            </div>
-          </div>
-
-          <div className="col-lg-5 mt-5">
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Health Tracker</h5>
-              </div>
-              <img src={health} alt="Preview of health tracker app" />
-              <a
-                href="https://github.com/heintze11/health-tracker"
-                target="_blank"
-                className="btn btn-secondary w-50"
-              >
-                Github
-              </a>
-              <a
-                href="https://evening-reef-97935.herokuapp.com/"
-                target="_blank"
-                className="btn btn-primary w-50"
-              >
-                Deployed
-              </a>
-            </div>
-          </div>
-
-          <div className="col-lg-5 mt-5">
-            <div className="card">
-              <div className="card-body">
-                <h5 className="card-title">Health Tracker</h5>
-              </div>
-              <img src={health} alt="Preview of health tracker app" />
-              <a
-                href="https://github.com/heintze11/health-tracker"
-                target="_blank"
-                className="btn btn-secondary w-50"
-              >
-                Github
-              </a>
-              <a
-                href="https://evening-reef-97935.herokuapp.com/"
+                href="https://github.com/heintze11/"
                 target="_blank"
                 className="btn btn-primary w-50"
               >
