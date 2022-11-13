@@ -10,12 +10,13 @@
 
 
 .background {
-    /* background: url(./assets/computer.jpg) no-repeat;
+    background: url(./assets/computer.jpg) no-repeat;
+    background-attachment: fixed;
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 90vh; */
-    background-color: blue;
+    height: 90vh;
+    /* background-color: blue; */
 }
 
 .text {
@@ -40,14 +41,18 @@ p {
 }
 
 
-
+span{
+    display: none;
+}
 
 input:invalid[focused="true"] ~ span{
     display:  block;
 }
 
 
-
+textarea {
+    
+}
 
 
 @media (min-width: 992px) { 

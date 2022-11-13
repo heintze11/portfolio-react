@@ -1,13 +1,24 @@
+import { useState } from "react";
 
-const contactItems = (props) => {
-    const { label, onChange, id, ...inputProps} = props;
+
+const ContactItems = (props) => {
+    const [focused, setFocused] = useState(false);
+    const { label, errorMessage, onChange, id, type, ...inputProps} = props;
+
+    const handleFocus = (e) => {
+        setFocused(true);
+    };
   return (
-    <div className="formInput">
-        <label>{label}</label>
-        <input {...inputProps} onChange={onChange}/>
-
+    <div className="formInput mb-3 w-50">
+        <label className="form-label">{label}</label>
+        {type === "textarea" ? (
+        <textarea className="form-control rows='4'" {...inputProps} onChange={onChange} onBlur={handleFocus} focused={focused.toString()} />
+      ) : (
+        <input className="form-control" {...inputProps} onChange={onChange} onBlur={handleFocus} focused={focused.toString()} />
+      )}
+        <span className="text-danger" >{errorMessage}</span>
     </div>
   )
 }
 
-export default contactItems
+export default ContactItems

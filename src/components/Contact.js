@@ -14,21 +14,28 @@ const Contact = () => {
       name: 'name',
       type: 'text',
       placeholder: 'Name',
+      errorMessage:"Please enter a name",
       label: 'Name',
+      required: true
     },
     {
       id: 2,
       name: 'email',
       type: 'email',
       placeholder: 'Email',
+      errorMessage:"Please enter a valid email",
       label: 'Email',
+      pattern: "^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$",
+      required: true
     },
     {
       id: 3,
       name: 'message',
-      type: 'text',
+      type: 'textarea',
       placeholder: 'Message',
+      errorMessage:"Please enter a message",
       label: 'Message',
+      required: true
     },
   ];
 
@@ -41,13 +48,14 @@ const Contact = () => {
   }
 
   return (
-    <div className='"background'>
+    <div className='background'>
       <div className="text">
+      <h2>Contact Form</h2>
         <form onSubmit={handleSubmit}>
           {inputs.map((input) => (
           <ContactItems key={input.id} {...input} value={values[input.name]} onChange={onChange}/>
           ))}
-          <button>Submit</button>
+          <button className="btn btn-primary btn-lg">Submit</button>
         </form>
       </div>
     </div>
