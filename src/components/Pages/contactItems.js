@@ -9,7 +9,7 @@ const ContactItems = (props) => {
         setFocused(true);
     };
   return (
-    <div className="formInput mb-3 col-md-6">
+    <div className="formInput mb-3 text-center">
         <label className="form-label">{label}</label>
         {type === "textarea" ? (
         <textarea className="form-control" rows='4' {...inputProps} onChange={onChange} onBlur={handleFocus} focused={focused.toString()} />

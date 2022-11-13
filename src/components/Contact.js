@@ -49,14 +49,20 @@ const Contact = () => {
 
   return (
     <div className='background'>
-      <div className="text">
-      <h2>Contact Form</h2>
-        <form onSubmit={handleSubmit}>
+      <div className="row text text-center align-items-center justify-content-center container">
+      <h2>Contact Levi</h2>
+        <form className='justify-content-center col' onSubmit={handleSubmit}>
           {inputs.map((input) => (
           <ContactItems key={input.id} {...input} value={values[input.name]} onChange={onChange}/>
           ))}
           <button className="btn btn-primary btn-lg">Submit</button>
         </form>
+        <div className='col-lg-4 mt-5'>
+          <h4><a href="mailto: levi.heintzelman@gmail.com" id='contact-link'>Levi.Heintzelman@gmail.com</a></h4>
+          <br />
+          <br />
+          <h4>Phone #: 616-260-0568</h4>
+        </div>
       </div>
     </div>
 

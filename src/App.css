@@ -10,7 +10,7 @@
 
 
 .background {
-    background: url(./assets/computer.jpg) no-repeat;
+    background: url(./assets/mountain-background.jpg) no-repeat;
     background-attachment: fixed;
     position: relative;
     background-size: cover;
@@ -22,7 +22,7 @@
 .text {
     margin-left: 5%;
     margin-right: 5%;
-    color: midnightblue;
+    color: rgb(134, 115, 3);
 }
 
 p {
@@ -47,6 +47,10 @@ span{
 
 input:invalid[focused="true"] ~ span{
     display:  block;
+}
+
+#contact-link {
+    color: rgb(134, 115, 3);
 }
 
 
