@@ -1,8 +1,8 @@
-
+import Footer from "./Footer"
 
 const About = () => {
   return (
-    <div className="background">
+    <div className="background d-flex flex-column min-vh-100">
       <div className="text">
       <h2>About Levi</h2>
       <p>
@@ -13,6 +13,7 @@ const About = () => {
         Levi lives in Denver Colorado and is an avid outdoorsman. He enjoys mountain biking, hiking, camping, skiing, and off-roading.
       </p>
       </div>
+      <Footer />
     </div>
   )
 }

@@ -3,10 +3,11 @@ import airQuality from '../assets/air-quality.png';
 import final from '../assets/final.jpg';
 import background from '../assets/background.jpeg';
 import task from '../assets/task.png';
+import Footer from './Footer';
 
 const Portfolio = () => {
   return (
-    <div className="background">
+    <div className="background d-flex flex-column min-vh-100">
       <div className="text">
         <h3 className="text-center">Portfolio</h3>
         <div className="portfolio row container justify-content-center text-center">
@@ -168,6 +169,7 @@ const Portfolio = () => {
           </card> */}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

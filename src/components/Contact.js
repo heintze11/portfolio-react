@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ContactItems from './Pages/contactItems';
+import Footer from './Footer';
 
 const Contact = () => {
   const [values, setValues] = useState({
@@ -48,7 +49,7 @@ const Contact = () => {
   }
 
   return (
-    <div className='background'>
+    <div className='background flex-column min-vh-100'>
       <div className="row text text-center align-items-center justify-content-center container">
       <h2>Contact Levi</h2>
         <form className='justify-content-center col' onSubmit={handleSubmit}>
@@ -64,58 +65,8 @@ const Contact = () => {
           <h4>Phone #: 616-260-0568</h4>
         </div>
       </div>
+      <Footer />
     </div>
-
-    // <div className="background">
-    //   <div className="text">
-    //     <h2>Contact Form</h2>
-    //     <form>
-    //       <div className="mb-3 w-50">
-    //         <label className="form-label" for="name">
-    //           Name
-    //         </label>
-    //         <input
-    //           className="form-control"
-    //           id="name"
-    //           type="text"
-    //           placeholder="Name"
-    //         />
-    //         <span></span>
-
-    //       </div>
-
-    //       <div className="mb-3 w-50">
-    //         <label className="form-label" for="emailAddress">
-    //           Email Address
-    //         </label>
-    //         <input
-    //           className="form-control"
-    //           id="emailAddress"
-    //           type="email"
-    //           placeholder="Email Address"
-
-    //         />
-    //       </div>
-
-    //       <div class="mb-3 w-50">
-    //         <label className="form-label">Message</label>
-    //         <textarea
-    //           className="form-control"
-    //           id="message"
-    //           type="text"
-    //           placeholder="Message"
-
-    //         ></textarea>
-    //       </div>
-
-    //       <div className="d-grid w-25">
-    //         <button className="btn btn-primary btn-lg" type="submit">
-    //           Submit
-    //         </button>
-    //       </div>
-    //     </form>
-    //   </div>
-    // </div>
   );
 };
 
