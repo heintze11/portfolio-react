@@ -10,11 +10,12 @@
 
 
 .background {
-    background: url(computer.jpg) no-repeat;
+    /* background: url(./assets/computer.jpg) no-repeat;
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 90vh; */
+    background-color: blue;
 }
 
 .text {
@@ -34,12 +35,23 @@ p {
 
 .img {
     width: 100%;
-    height: 25vw;
+    height: 50vw;
     object-fit: cover;
 }
 
-@media (max-width: 992px) { 
+
+
+
+input:invalid[focused="true"] ~ span{
+    display:  block;
+}
+
+
+
+
+
+@media (min-width: 992px) { 
     .img {
-        height: 50vh;
+        height: 25vh;
     }
  }

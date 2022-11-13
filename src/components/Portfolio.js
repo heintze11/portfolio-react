@@ -9,12 +9,12 @@ const Portfolio = () => {
     <div className="background">
       <div className="text">
         <h3 className="text-center">Portfolio</h3>
-        <div className="portfolio row container justify-content-center">
+        <div className="portfolio row container justify-content-center text-center">
           
           <div className="col-lg-5 mt-5">
-            <div className="card">
+            <div className="card bg-info">
               <div className="card-body">
-                <h5 className="card-title text-center">Health Tracker App</h5>
+                <h5 className="card-title">Health Tracker App</h5>
               </div>
               <img
                 className="img"
@@ -39,7 +39,7 @@ const Portfolio = () => {
           </div>
 
           <div className="col-lg-5 mt-5">
-            <div className="card">
+            <div className="card bg-info">
               <div className="card-body">
                 <h5 className="card-title">Air Quality Comparison App</h5>
               </div>
@@ -62,7 +62,7 @@ const Portfolio = () => {
           </div>
 
           <div className="col-lg-5 mt-5">
-            <div className="card">
+            <div className="card bg-info">
               <div className="card-body">
                 <h5 className="card-title">Final Project</h5>
               </div>
@@ -85,7 +85,7 @@ const Portfolio = () => {
           </div>
 
           <div className="col-lg-5 mt-5">
-            <div className="card">
+            <div className="card bg-info">
               <div className="card-body">
                 <h5 className="card-title">React Task Tracker</h5>
               </div>
@@ -102,7 +102,7 @@ const Portfolio = () => {
           </div>
 
           <div className="col-lg-5 mt-5">
-            <div className="card">
+            <div className="card bg-info">
               <div className="card-body">
                 <h5 className="card-title">Placeholder</h5>
               </div>
@@ -125,7 +125,7 @@ const Portfolio = () => {
           </div>
 
           <div className="col-lg-5 mt-5 mb-5">
-            <div className="card">
+            <div className="card bg-info">
               <div className="card-body">
                 <h5 className="card-title">Placeholder</h5>
               </div>
