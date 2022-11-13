@@ -9,10 +9,10 @@ const ContactItems = (props) => {
         setFocused(true);
     };
   return (
-    <div className="formInput mb-3 w-50">
+    <div className="formInput mb-3 col-md-6">
         <label className="form-label">{label}</label>
         {type === "textarea" ? (
-        <textarea className="form-control rows='4'" {...inputProps} onChange={onChange} onBlur={handleFocus} focused={focused.toString()} />
+        <textarea className="form-control" rows='4' {...inputProps} onChange={onChange} onBlur={handleFocus} focused={focused.toString()} />
       ) : (
         <input className="form-control" {...inputProps} onChange={onChange} onBlur={handleFocus} focused={focused.toString()} />
       )}

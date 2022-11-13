@@ -50,11 +50,6 @@ input:invalid[focused="true"] ~ span{
 }
 
 
-textarea {
-    
-}
-
-
 @media (min-width: 992px) { 
     .img {
         height: 25vh;
