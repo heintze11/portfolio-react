@@ -22,7 +22,7 @@ Created a professional portfolio using React and taking advantage of Props to ea
 - GitHub Pages
 
 ## Example
-![Portfolio Gif]()
+![Portfolio Gif](src/assets/portfolio-preview.gif)
 
 ## Contact
 Use the links below to contact the creator with questions.  

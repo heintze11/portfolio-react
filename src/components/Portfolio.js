@@ -57,7 +57,7 @@ const Portfolio = () => {
   // Map through the cardinfo and send props to Project
   return (
     <div className="background d-flex flex-column min-vh-100">
-      <div className="text mt-5">
+      <div className="text mt-5 justify-content-center text-center">
         <h3 className="text-center">Portfolio</h3>
         <div className="portfolio row container justify-content-center text-center">
           {cardInfo.map((info) => (

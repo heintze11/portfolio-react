@@ -5,7 +5,7 @@ const Project = (props) => {
     <div className="col-lg-5 mt-5">
       <div className="card project-card">
         <div className="card-body">
-          <h5 className="card-title">{props.title}</h5>
+          <h4 className="card-title">{props.title}</h4>
         </div>
         <img className="img" src={props.image} alt={props.title} />
         <div>
@@ -19,7 +19,7 @@ const Project = (props) => {
         <a
           href={props.deployed}
           target="_blank"
-          className="btn btn-primary w-50"
+          className="btn btn-primary col-6"
         >
           Deployed
         </a>

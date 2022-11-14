@@ -36,7 +36,7 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
-p {
+p, li, label {
   font-size: larger;
   font-weight: 600;
 }
