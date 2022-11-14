@@ -1,4 +1,5 @@
-import Footer from "./Footer"
+import Footer from "./Footer";
+import Image from "../assets/levi-image.jpeg";
 
 const About = () => {
   return (
@@ -16,6 +17,7 @@ const About = () => {
         Levi lives in Denver Colorado and is an avid outdoorsman. He enjoys mountain biking, hiking, camping, skiing, and off-roading.
         </p>
         </div>
+      <img className="about-image rounded-circle mt-5" src={Image} alt="Levi's profile picture" height="400px" />
       </div>
       <Footer />
     </div>
