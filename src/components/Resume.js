@@ -1,6 +1,7 @@
 import resume from '../assets/levi-heintzelman-resume.docx';
 import Footer from './Footer';
 
+// Create a resume page that includes a downloadable resume and some highlights
 const Resume = () => {
   return (
     <div className="background d-flex flex-column min-vh-100">
@@ -9,8 +10,8 @@ const Resume = () => {
         <a href={resume} download="Levi Heintzelman Resume" target="_blank">
           <button className="btn btn-lg">Download Levi's Resume</button>
         </a>
-        <div className='row text-center' >
-          <div className='col-md-6 text-center resume'>
+        <div className="row text-center">
+          <div className="col-md-6 text-center resume">
             <ul>
               <h4>Front End Technical Skills</h4>
               <li>HTML</li>
@@ -22,7 +23,7 @@ const Resume = () => {
             </ul>
           </div>
 
-          <div className='col-md-6 text-center resume'>
+          <div className="col-md-6 text-center resume">
             <ul>
               <h4>Back End Technical Skills</h4>
               <li>Rest APIs</li>
@@ -33,8 +34,6 @@ const Resume = () => {
               <li>MongoDB</li>
             </ul>
           </div>
-
-
         </div>
       </div>
       <Footer />

@@ -1,5 +1,8 @@
 import { useState } from 'react';
 
+//Receive props from Contact page
+// Use state to change focus
+// Focus is used to render the errormessge 
 const ContactItems = (props) => {
   const [focused, setFocused] = useState(false);
   const { label, errorMessage, onChange, id, type, ...inputProps } = props;

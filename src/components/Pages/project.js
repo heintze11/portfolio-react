@@ -1,4 +1,4 @@
-
+// Receiving Props from Portfolio to render each card with their individual values
 
 const Project = (props) => {
   return (

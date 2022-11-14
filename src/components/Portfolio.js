@@ -1,4 +1,3 @@
-
 import Project from './Pages/project';
 import Footer from './Footer';
 import health from '../assets/health-tracker.jpg';
@@ -7,7 +6,9 @@ import final from '../assets/final.jpg';
 import background from '../assets/background.jpeg';
 import task from '../assets/task.png';
 
-const Portfolio2 = () => {
+// Create the parent portfolio page that sends data to the Project page to render each project card
+
+const Portfolio = () => {
   const cardInfo = [
     {
       id: 1,
@@ -53,13 +54,14 @@ const Portfolio2 = () => {
     },
   ];
 
+  // Map through the cardinfo and send props to Project
   return (
     <div className="background d-flex flex-column min-vh-100">
       <div className="text mt-5">
         <h3 className="text-center">Portfolio</h3>
         <div className="portfolio row container justify-content-center text-center">
           {cardInfo.map((info) => (
-            <Project key={info.id} {...info}/>
+            <Project key={info.id} {...info} />
           ))}
         </div>
       </div>
@@ -68,4 +70,4 @@ const Portfolio2 = () => {
   );
 };
 
-export default Portfolio2;
+export default Portfolio;

@@ -2,6 +2,9 @@ import { useState } from 'react';
 import ContactItems from './Pages/contactItems';
 import Footer from './Footer';
 
+// create Contact page which sends props to ContactItems for use
+// Use state so that it will show updates to the fields in real time
+// Sets inputs as the different contact item components. 
 const Contact = () => {
   const [values, setValues] = useState({
     name: '',
@@ -48,6 +51,7 @@ const Contact = () => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
 
+  // map through inputs and send props to contact items to render each one individually
   return (
     <div className="background d-flex flex-column min-vh-100">
       <div className="mt-5 row text text-center align-items-center justify-content-center container ">
