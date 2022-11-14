@@ -3,8 +3,8 @@ import Footer from "./Footer"
 const About = () => {
   return (
     <div className="background d-flex flex-column min-vh-100">
-      <div className="text">
-      <h2>About Levi</h2>
+      <div className="text about mt-5 text-center">
+      <h2>About</h2>
       <p>
         Levi spent 12 years working as a geologist in the Oil and Gas industry. Due to recent economic and political changes he decided to pursue a career change. During 2022 he started a Coding Bootcamp which finished in December of 2022. 
 

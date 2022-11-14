@@ -16,13 +16,16 @@
     background-size: cover;
     background-position: center;
     min-height: 100%;
-    /* background-color: blue; */
 }
 
+.title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .text {
     margin-left: 5%;
     margin-right: 5%;
-    color: rgb(134, 115, 3);
+    color: slate;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
 }
 
 p {
@@ -50,9 +53,18 @@ input:invalid[focused="true"] ~ span{
 }
 
 #contact-link {
-    color: rgb(134, 115, 3);
+    color: rgb(175, 69, 7);
 }
 
+ul {
+    list-style-type: none;
+  }
+
+
+.about {
+    background-color: rgba(211, 211, 211, 0.6);
+
+}
 
 @media (min-width: 992px) { 
     .img {
