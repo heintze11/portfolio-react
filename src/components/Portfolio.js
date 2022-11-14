@@ -8,7 +8,7 @@ import Footer from './Footer';
 const Portfolio = () => {
   return (
     <div className="background d-flex flex-column min-vh-100">
-      <div className="text">
+      <div className="text mt-5">
         <h3 className="text-center">Portfolio</h3>
         <div className="portfolio row container justify-content-center text-center">
           

@@ -3,14 +3,14 @@ import Footer from './Footer';
 
 const Resume = () => {
   return (
-    <div className="background flex-column min-vh-100">
-      <div className="text text-center">
+    <div className="background d-flex flex-column min-vh-100">
+      <div className="text mt-5 text-center">
         <h2>Resume</h2>
         <a href={resume} download="Levi Heintzelman Resume" target="_blank">
           <button className="btn btn-lg">Download Levi's Resume</button>
         </a>
         <div className='row text-center' >
-          <div className='col-md-6 text-center'>
+          <div className='col-md-6 text-center resume'>
             <ul>
               <h4>Front End Technical Skills</h4>
               <li>HTML</li>
@@ -22,7 +22,7 @@ const Resume = () => {
             </ul>
           </div>
 
-          <div className='col-md-6 text-center'>
+          <div className='col-md-6 text-center resume'>
             <ul>
               <h4>Back End Technical Skills</h4>
               <li>Rest APIs</li>
