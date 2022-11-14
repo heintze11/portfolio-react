@@ -8,10 +8,11 @@ const Project = (props) => {
           <h5 className="card-title">{props.title}</h5>
         </div>
         <img className="img" src={props.image} alt={props.title} />
+        <div>
         <a
           href={props.github}
           target="_blank"
-          className="btn btn-secondary w-50"
+          className="btn btn-secondary col-6"
         >
           Github
         </a>
@@ -22,6 +23,7 @@ const Project = (props) => {
         >
           Deployed
         </a>
+        </div>
       </div>
     </div>
   );
