@@ -3,7 +3,7 @@
 const Project = (props) => {
   return (
     <div className="col-lg-5 mt-5">
-      <div className="card">
+      <div className="card project-card">
         <div className="card-body">
           <h5 className="card-title">{props.title}</h5>
         </div>
