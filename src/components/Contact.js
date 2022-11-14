@@ -51,7 +51,7 @@ const Contact = () => {
   return (
     <div className='background d-flex flex-column min-vh-100'>
       <div className="mt-5 row text text-center align-items-center justify-content-center container ">
-      <h2 className='text-center align-items-center justify-content-center'>Contact Levi</h2>
+      <h2 className='text-center align-items-center justify-content-center'>Contact Me</h2>
         <form className='justify-content-center col contact' onSubmit={handleSubmit}>
           {inputs.map((input) => (
           <ContactItems key={input.id} {...input} value={values[input.name]} onChange={onChange}/>

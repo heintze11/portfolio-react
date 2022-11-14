@@ -54,15 +54,14 @@ input:invalid[focused="true"] ~ span{
 }
 
 #contact-link {
-    color: rgb(175, 69, 7);
+    color: slate;
 }
 
 ul {
     list-style-type: none;
   }
 
-
-.about, .resume, .contact {
+.about, .resume, .contact, .card{
     background-color: rgba(211, 211, 211, 0.6);
 
 }
