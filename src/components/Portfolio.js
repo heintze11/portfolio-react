@@ -2,9 +2,10 @@ import Project from './Pages/project';
 import Footer from './Footer';
 import health from '../assets/health-tracker.jpg';
 import airQuality from '../assets/air-quality.png';
-import final from '../assets/final.jpg';
+// import final from '../assets/final.jpg';
 import background from '../assets/background.jpeg';
 import task from '../assets/task.png';
+import kin from '../assets/kin.jpg'
 
 // Create the parent portfolio page that sends data to the Project page to render each project card
 
@@ -26,10 +27,10 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      image: final,
-      title: 'Final Project',
-      github: 'https://github.com/AFaidley/Project-3',
-      deployed: 'https://github.com/AFaidley/Project-3',
+      image: kin,
+      title: 'Kin - Knowledge in Numbers',
+      github: 'https://github.com/AFaidley/KIN',
+      deployed: 'https://knowledge-in-numbers.herokuapp.com/',
     },
     {
       id: 4,
